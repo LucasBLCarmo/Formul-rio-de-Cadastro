@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+    <form class="container">
+        <h1>Cadastro de Informações</h1>
+
+        <div class="input-texto">
+
+            <label for="nome">Seu Nome:</label>
+            <input class="width100" type="text" id="nome" required>
+
+            <label for="email">Seu Email:</label>
+            <input class="width100" type="email" id="email">
+
+            <label for="idade">Sua Idade:</label>
+            <input class="width100" type="text" id="idade">
+
+            <label for="cidade">Qual cidade você mora?</label>
+            <input class="width100" type="text" id="cidade">
+
+        </div>
+
+        <div class="div-input-radio">
+
+            <p>Qual seu país?</p>
+
+            <label class="paises" for="pais">Brasil</label>
+            <input type="radio" name="pais" id="pais">
+            <label class="paises" for="pais2">Estados Unidos</label>
+            <input type="radio" name="pais" id="pais2">
+        </div>
+
+
+        <div class="div-select">
+
+            <p>Qual a sua area?</p>
+
+            <select>
+                <option selected disabled>Selecione</option>
+                <option>Front-End</option>
+                <option>Back-End</option>
+                <option>FullStack</option>
+            </select>
+
+        </div>
+
+        <label for="mensagem">Fale um pouco sobre você:</label>
+        <textarea id="mensagem" cols="40" rows="10"></textarea>
+
+
+        <button class="btn">ENVIAR</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
